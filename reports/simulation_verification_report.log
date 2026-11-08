@@ -1,0 +1,8 @@
+================================================================================
+SUBNORMAL FP32 MAC & ARITHMETIC UNIT (OS0005) — RTL VERIFICATION SUITE
+Generated: \2026-11-08 09:37:25 UTC\
+Process Target: SCL 180nm CMOS 1P6M (Chip OS0005)
+================================================================================
+
+progress n=1000 errs=0
+DONE vectors=1000 errors=0 maxcycles=2944

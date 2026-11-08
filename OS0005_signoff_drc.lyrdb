@@ -1,0 +1,2205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>SCL DRC runset</description>
+ <original-file/>
+ <generator>drc: script='/mnt/d/Downloads/FPUIP_package/FPUIP_package/pdk/digital_cp8d/Open_Source_SCL_0.8micron_PDK_digital/open_source_scl_cp8d/open_pdks/scl_cp8d/libs.tech/klayout/tech/drc/cp8d_drc.drc'</generator>
+ <top-cell>OS0005</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>1.1.1 &amp; 1.1.2 : Minimum Nwell width violations = 4.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>1.2.2 : Minimum Nwell spacing violations = 7.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>1.3.2 : Minimium spacing Ndiff outside nwell = 3.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>1.3.3 : Minimum spacing Pdiff inside Nwell = 3.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>2.1.1 : Minimum Ndiff Width violations =  2.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>2.1.2 : Minimum Pdiff Width violations =  2.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>2.2.1 : Minimum Ndiff spacing violations =  1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>2.2.2 : Minimum Pdiff spacing violations =  1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>2.2.3 : Minimum Pdiff to Ndiff Spacing violations =  1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>3.1.1 : Shapes present in Nwell_rev XOR Nwell</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.1.1 : Minimum Poly width violations  =  0.8um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.2.2 : Minimum Poly spacing edge violations = 1.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.3.1 &amp; 4.3.2 : Minimum NMOS length : 0.8um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.3.1 &amp; 4.3.2 : Minimum NMOS Area : 1.6.0umÂ²</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.3.1 &amp; 4.3.2 : Minimum PMOS length : 0.8um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.3.1 &amp; 4.3.2 : Minimum PMOS Area : 1.6.0umÂ²</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.4.1 : Minimum Poly Extension beyond Gate : 1.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.6.1 : Poly dimension exceeds Maximum 30u x 30u</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>6.1.1 and 6.1.2 : Minimum Boron width violations =  3.4um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>6.4.1 : Minimum enclosure of Diffusion by Boron violations =  0.7um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>6.5.1 : Minimum Boron to Ndiff spacing violations = 0.7um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>6.7.1 : Minimum Boron spacing violations =  1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>5.1.1 : Shapes present in Boron_rev XOR Boron</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.1.1 : Contacts not exactly 1.2u x 1.2u</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.2.1 &amp; 7.2.2 : Maximum Nplus substrate contact size violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.2.1 &amp; 7.2.2 : Maximum Pplus substrate contact size violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.3.1 : Minimum Contact spacing violations =  1.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.4.2 : Minimum enclosure of Diffusion to Contact violations =  0.7um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.5.1 : Minimum Diffusion contact spacing tO Poly gate = 1.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.6.1 : Minimum Poly contact spacing tO active Gate area = 0.8um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.7.1 : Minimum butted Diffusion Contact width = 2.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.1 : Poly Contact in Diffusion NOT ALLOWED</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.2 : Contact NOT IN Poly OR Diffusion AND Metal1</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.1.1 : Minimum Metal1 spacing violations = 1.2um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.2.1 : Minimum Metal1 width violations = 1.7um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.9.1 : Minimum bonding Pad spacing to Diffusion violations = 10.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.9.2 : Minimum bonding Pad spacing to Poly violations = 30.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.9.3 : Minimum bonding Pad spacing to Contact violations = 15.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.9.4 : Minimum bonding Pad spacing to Metal1 violations = 30.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.10.1 : Minimum enclousure of Metal1 to Pad window violations = 5.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.1 : NO Poly allowed underneath bonding Pad Metal1</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>9.1.1 : Exact via width = 1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>9.2.1 : Minimum via to via spacing violations = 1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>9.3.1 : Minimum via to contact spacing violations = 1.2um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>9.4.1 : Minimum via to Poly spacing violations = 1.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>9.5.1 : Minimum Metal1 enclose to via violations = 0.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>9.6.1 : Minimum Metal2 enclose to via violations = 0.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name> NOTE  Via on poly edges not allowed</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>10.2.1 : Minimum Metal2 width violations = 2.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>10.3.2 : Minimum bonding pad spacing to via violations = 15.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>10.3.3 : Minimum bonding pad metal spacing to Metal2 violations = 30.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>10.4.1 : Minimum enclosure of Metal2 to pad violations = 5.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>11.1.1 : Minimum pad window size = 90 X 90 </name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>11.2.1 : Minimum pad to pad spacing violations = 100.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>11.1 : unwanted Nguardbar CONNECTED TO SOURCE/DRAIN OF nmos</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>11.2 : unwanted Pguardbar CUTTING nwell</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>11.3 : pad Metal NOT ON Metal1 OR Metal2 ARE ILLEGAL</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>rnwell width violations = 10.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>@GUIDELINE-3 Bad contact covering nwell resistor</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name> @GUIDELINE-3 Bad contact covering npoly resistor</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>@GUIDELINE-3 Bad contact covering ppoly resistor</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>@GUIDELINE_4_floating_gates  </name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name> @GUIDELINE-6 AVOID PLACING vias ON diff EDGES</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>@GUIDELINE-5 distance pgate welltap &gt; 25.0um  </name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>@GUIDELINE-5 distance ngate subtap &gt; 50.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>OS0005</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+  <cell>
+   <name>subnorm_fp32</name>
+   <variant/>
+   <layout-name>subnorm_fp32</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 0,0</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>NOR400</name>
+   <variant/>
+   <layout-name>NOR400</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 1257.9,987.5</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>OR4100</name>
+   <variant/>
+   <layout-name>OR4100</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 540.3,734</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>NOR500</name>
+   <variant/>
+   <layout-name>NOR500</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 992.7,581.9</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>NND500</name>
+   <variant/>
+   <layout-name>NND500</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 992.7,1038.2</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>DFFL11</name>
+   <variant/>
+   <layout-name>DFFL11</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 984.9,886.1</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>NOR300</name>
+   <variant/>
+   <layout-name>NOR300</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 1226.7,987.5</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>DFCL11</name>
+   <variant/>
+   <layout-name>DFCL11</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 1261.8,1595.9</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>MX4100</name>
+   <variant/>
+   <layout-name>MX4100</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 1090.2,683.3</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>OR2100</name>
+   <variant/>
+   <layout-name>OR2100</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 981,1494.5</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>MX2100</name>
+   <variant/>
+   <layout-name>MX2100</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 988.8,1545.2</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>XOR200</name>
+   <variant/>
+   <layout-name>XOR200</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 1324.2,1190.3</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>XOR300</name>
+   <variant/>
+   <layout-name>XOR300</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 747,734</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>frame2mmx2mm</name>
+   <variant/>
+   <layout-name>frame2mmx2mm</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 0,0</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>ASPAD00</name>
+   <variant>r90</variant>
+   <layout-name>ASPAD00$VAR1</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>m135 *1 304.9,1605.8</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>ASPAD00</name>
+   <variant>r0</variant>
+   <layout-name>ASPAD00</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>m0 *1 350.95,304.9</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>SPAD00</name>
+   <variant>r0</variant>
+   <layout-name>SPAD00</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>m0 *1 700.95,304.9</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>SPAD00</name>
+   <variant>r90</variant>
+   <layout-name>SPAD00$VAR1</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r270 *1 1695.1,1605.8</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>OR3100</name>
+   <variant/>
+   <layout-name>OR3100</layout-name>
+   <references>
+    <ref>
+     <parent>OS0005</parent>
+     <trans>r0 *1 930.3,987.5</trans>
+    </ref>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um'</category>
+   <cell>NOR400</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (16.95,15.5;17.75,15.5)/(18.25,15.5;16.45,15.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um'</category>
+   <cell>NOR400</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (11,15.5;11.8,15.5)/(12.3,15.5;10.5,15.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um'</category>
+   <cell>NOR400</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (21.65,15.5;22.45,15.5)/(22.95,15.5;21.15,15.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um'</category>
+   <cell>NOR400</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (5.45,15.5;6.25,15.5)/(6.75,15.5;4.95,15.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um'</category>
+   <cell>OR4100</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (16.95,15.5;17.75,15.5)/(18.25,15.5;16.45,15.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um'</category>
+   <cell>OR4100</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (11,15.5;11.8,15.5)/(12.3,15.5;10.5,15.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um'</category>
+   <cell>OR4100</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (21.65,15.5;22.45,15.5)/(22.95,15.5;21.15,15.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um'</category>
+   <cell>OR4100</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (5.45,15.5;6.25,15.5)/(6.75,15.5;4.95,15.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.4.1 : Minimum Poly Extension beyond Gate : 1.0um'</category>
+   <cell>NOR500</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (11.35,14.1;11.35,14.7;12.15,14.7;12.15,14.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.4.1 : Minimum Poly Extension beyond Gate : 1.0um'</category>
+   <cell>NND500</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (5.65,15.2;5.65,16.05;6.45,16.05;6.45,15.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.4.1 : Minimum Poly Extension beyond Gate : 1.0um'</category>
+   <cell>DFFL11</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (18.65,4.15;18.65,5.1;19.45,5.1;19.45,4.15)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.4.1 : Minimum Poly Extension beyond Gate : 1.0um'</category>
+   <cell>NOR300</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (6.35,15;6.35,15.5;7.15,15.5;7.15,15)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.4.1 : Minimum Poly Extension beyond Gate : 1.0um'</category>
+   <cell>DFCL11</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (18.65,4.15;18.65,5.1;19.45,5.1;19.45,4.15)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.4.1 : Minimum Poly Extension beyond Gate : 1.0um'</category>
+   <cell>MX4100</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (96.4,21.85;96.4,22.65;97.05,22.65;97.05,21.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.4.1 : Minimum Poly Extension beyond Gate : 1.0um'</category>
+   <cell>MX4100</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (82.8,21.35;82.8,21.85;83.6,21.85;83.6,21.35)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.4.1 : Minimum Poly Extension beyond Gate : 1.0um'</category>
+   <cell>MX4100</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (11.55,7;11.55,7.9;12.35,7.9;12.35,7)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um'</category>
+   <cell>OR2100</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.15,3.1;12.15,5.1)/(12.65,2.1;12.65,6.514)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um'</category>
+   <cell>DFFL11</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (50.65,4.3;50.65,6.8)/(51.25,3.3;51.25,8.175)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um'</category>
+   <cell>DFFL11</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (29.45,4.8;29.45,6.8)/(29.95,3.8;29.95,8.214)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um'</category>
+   <cell>DFFL11</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (22.55,5.1;22.55,7.1)/(23.05,4.1;23.05,8.514)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um'</category>
+   <cell>DFFL11</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (5.05,7.1;5.05,5.1)/(4.55,8.514;4.55,4.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um'</category>
+   <cell>DFCL11</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (5.05,7.1;5.05,5.1)/(4.55,8.514;4.55,4.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um'</category>
+   <cell>DFCL11</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (56.45,4.8;56.45,6.8)/(57.05,3.8;57.05,8.175)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um'</category>
+   <cell>DFCL11</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (22.55,5.1;22.55,7.1)/(23.05,4.1;23.05,8.514)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um'</category>
+   <cell>DFCL11</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (31.25,6.8;31.25,4.8)/(30.75,8.214;30.75,3.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um'</category>
+   <cell>DFCL11</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (51.35,7.1;51.35,5.1)/(50.85,8.514;50.85,4.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.5um'</category>
+   <cell>NOR500</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (13,13.25;13,13.6;14.2,13.6;14.2,13.25)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.5um'</category>
+   <cell>MX2100</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2.2,12.6;2.2,13;3.4,13;3.4,12.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.5um'</category>
+   <cell>NOR300</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (14.95,13.25;14.95,13.6;16.15,13.6;16.15,13.25)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.5um'</category>
+   <cell>XOR200</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2.45,12.6;2.45,13;3.65,13;3.65,12.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.5um'</category>
+   <cell>XOR300</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2.45,12.6;2.45,13;3.65,13;3.65,12.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.5um'</category>
+   <cell>XOR300</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (44.1,12.6;44.1,13;45.3,13;45.3,12.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'7.4.2 : Minimum enclosure of Diffusion to Contact violations =  0.7um'</category>
+   <cell>ASPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (14.404,113.55;14.404,115.55;14.85,115.55;14.85,113.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'7.4.2 : Minimum enclosure of Diffusion to Contact violations =  0.7um'</category>
+   <cell>ASPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (14.404,113.55;14.404,115.55;14.85,115.55;14.85,113.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'7.4.2 : Minimum enclosure of Diffusion to Contact violations =  0.7um'</category>
+   <cell>SPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (14.404,113.55;14.404,115.55;14.85,115.55;14.85,113.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'7.4.2 : Minimum enclosure of Diffusion to Contact violations =  0.7um'</category>
+   <cell>SPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (14.404,113.55;14.404,115.55;14.85,115.55;14.85,113.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'7.4.2 : Minimum enclosure of Diffusion to Contact violations =  0.7um'</category>
+   <cell>DFFL11</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (5.05,5.5;5.05,6.7;5.65,6.7;5.65,5.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'7.4.2 : Minimum enclosure of Diffusion to Contact violations =  0.7um'</category>
+   <cell>DFCL11</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (5.05,5.5;5.05,6.7;5.65,6.7;5.65,5.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.2um'</category>
+   <cell>OS0005</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1070.4,595.319;1070.4,600.081)|(1070,598.95;1070,596.45)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.2um'</category>
+   <cell>OS0005</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (305.6,621.85;305.6,624.35)|(304.9,625.325;304.9,620.875)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.2um'</category>
+   <cell>OS0005</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (306,624.35;306,627.65)|(304.9,628.13;304.9,623.87)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.2um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (305.6,621.85;305.6,624.35)|(304.9,625.325;304.9,620.875)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.2um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (306,624.35;306,627.65)|(304.9,628.13;304.9,623.87)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.2um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (910.5,1172.656;910.5,1173.15)|(909.7,1174.044;909.7,1173.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.2um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (910.1,1173.15;910.1,1175.65)|(909.7,1176.781;909.7,1173.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.2um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1070.4,595.319;1070.4,600.081)|(1070,598.95;1070,596.45)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.2.1 : Minimum Metal1 width violations = 1.7um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (911.5,1254.851;911.5,1254.95)|(912.2,1256.499;912.2,1256.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.2.1 : Minimum Metal1 width violations = 1.7um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (911.5,1254.95;911.313,1254.95)|(912.2,1256.4;912.387,1256.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.2.1 : Minimum Metal1 width violations = 1.7um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1020.75,844.229;1020.75,844.25)|(1021.4,845.821;1021.4,845.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.2.1 : Minimum Metal1 width violations = 1.7um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1020.75,844.25;1020.702,844.25)|(1021.4,845.8;1021.448,845.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um'</category>
+   <cell>ASPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (44.6,243.55;44.6,245.55;44.8,245.55;44.8,243.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um'</category>
+   <cell>ASPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (60,240.05;60,242.05;60.3,242.05;60.3,240.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um'</category>
+   <cell>ASPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (44.6,243.55;44.6,245.55;44.8,245.55;44.8,243.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um'</category>
+   <cell>ASPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (60,240.05;60,242.05;60.3,242.05;60.3,240.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um'</category>
+   <cell>SPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (44.6,243.55;44.6,245.55;44.8,245.55;44.8,243.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um'</category>
+   <cell>SPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (60,240.05;60,242.05;60.3,242.05;60.3,240.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um'</category>
+   <cell>SPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (44.6,243.55;44.6,245.55;44.8,245.55;44.8,243.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um'</category>
+   <cell>SPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (60,240.05;60,242.05;60.3,242.05;60.3,240.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um'</category>
+   <cell>NOR500</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (36,18.25;36,18.4;37.2,18.4;37.2,18.25)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um'</category>
+   <cell>OR3100</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (17.7,14.55;17.7,14.8;18,14.8;18,14.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um'</category>
+   <cell>OR3100</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (17.7,14.55;17.7,14.8;18,14.8;18,14.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um'</category>
+   <cell>OR3100</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (17.7,13.6;17.7,14.55;18,14.55;18,13.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>ASPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (106.2,246.681;106.2,242.419)/(105.8,245.55;105.8,243.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>ASPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (60,238.888;60,243.212)/(60.3,240.05;60.3,242.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>ASPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (67.7,243.181;67.7,238.919)/(67.3,242.05;67.3,240.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>ASPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.6,242.367;44.6,246.733)/(44.8,243.55;44.8,245.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>ASPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (106.2,246.681;106.2,242.419)/(105.8,245.55;105.8,243.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>ASPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (60,238.888;60,243.212)/(60.3,240.05;60.3,242.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>ASPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (67.7,243.181;67.7,238.919)/(67.3,242.05;67.3,240.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>ASPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.6,242.367;44.6,246.733)/(44.8,243.55;44.8,245.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>SPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (106.2,246.681;106.2,242.419)/(105.8,245.55;105.8,243.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>SPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (60,238.888;60,243.212)/(60.3,240.05;60.3,242.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>SPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (67.7,243.181;67.7,238.919)/(67.3,242.05;67.3,240.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>SPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.6,242.367;44.6,246.733)/(44.8,243.55;44.8,245.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>SPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (106.2,246.681;106.2,242.419)/(105.8,245.55;105.8,243.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>SPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (60,238.888;60,243.212)/(60.3,240.05;60.3,242.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>SPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (67.7,243.181;67.7,238.919)/(67.3,242.05;67.3,240.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um'</category>
+   <cell>SPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.6,242.367;44.6,246.733)/(44.8,243.55;44.8,245.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.2.1 : Minimum via to via spacing violations = 1.5um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (984.7,1299.45;984.7,1300.95)|(984.25,1300.95;984.25,1299.45)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.2.1 : Minimum via to via spacing violations = 1.5um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1074.4,1332.75;1074.4,1334.25)|(1073.4,1334.25;1073.4,1332.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.0um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (827.7,1504.45;827.7,1502.95)/(827.95,1501.982;827.95,1505.418)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.0um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (826.2,1502.95;826.2,1504.45)/(826.15,1505.449;826.15,1501.951)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1403.15,746.05;1403.15,748.55)|(1401.8,748.921;1401.8,745.679)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1024.85,644.65;1024.85,647.15)|(1023.5,647.521;1023.5,644.279)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1282.95,582.7;1282.95,592.3)|(1282.85,593.696;1282.85,581.304)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (623.15,999.55;623.15,1002.05)|(622.15,1003.03;622.15,998.57)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1040.45,539.229;1040.45,541.6)|(1039.1,541.971;1039.1,539.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1102.85,593.95;1102.85,596.45)|(1101.5,596.821;1101.5,593.579)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1074.15,539.573;1074.15,539.9)|(1073.9,541.277;1073.9,540.95)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1074.15,539.9;1074.826,539.9)|(1073.9,540.95;1073.224,540.95)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1006.6,1285.41;1006.6,1286.4)|(1005.95,1287.64;1005.95,1286.65)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1071.65,742.029;1071.65,744.4)|(1070.3,744.771;1070.3,742.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1196.65,690.434;1196.65,690.7)|(1195.55,691.566;1195.55,691.3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1137.95,1405.15;1137.95,1407.65)|(1136.6,1408.021;1136.6,1404.779)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1266.65,1553.1;1266.65,1555.6)|(1265.65,1556.58;1265.65,1553.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1180.85,437.779;1180.85,440.2)|(1179.5,440.571;1179.5,438.15)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1388.25,582.7;1388.25,592.3)|(1388.15,593.696;1388.15,581.304)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1324.72,742.55;1325.75,742.55)|(1326.73,743.55;1325.7,743.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1145.75,1401.129;1145.75,1403.5)|(1144.4,1403.871;1144.4,1401.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1325.85,1495.3;1325.85,1504.9)|(1325.75,1506.296;1325.75,1493.904)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (755.75,1096.8;755.75,1099.3)|(754.5,1099.93;754.5,1097.3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1006.6,1282.808;1006.6,1286.4)|(1006.2,1286.65;1006.2,1284.15)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1148.25,975.992;1148.25,979.3)|(1147.75,980.608;1147.75,977.3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1259.55,684.1;1259.55,693.7)|(1259.45,695.096;1259.45,682.704)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (864.95,1336.2;864.95,1355.7)|(863.6,1355.75;863.6,1336.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1030.1,1305.45;1030.1,1305.278)|(1031,1306.35;1031,1306.522)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1029.928,1305.45;1030.1,1305.45)|(1031.172,1306.35;1031,1306.35)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1103.25,1306.05;1104.171,1306.05)|(1103.45,1307.25;1102.529,1307.25)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1200.1,690;1200.1,692.5)|(1199,693.366;1199,689.134)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1032.65,640.5;1032.65,643)|(1031.3,643.371;1031.3,640.129)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1449.7,746.9;1449.7,748.416)|(1448.6,747.55;1448.6,746.034)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1196.65,690.7;1196.815,690.7)|(1195.55,691.3;1195.385,691.3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1056.75,1596.7;1056.75,1606.3)|(1056.65,1607.696;1056.65,1595.304)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1208.85,1596.7;1208.85,1606.3)|(1208.75,1607.696;1208.75,1595.304)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (759.65,1147.5;759.65,1150)|(758.4,1150.63;758.4,1148)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1158.1,1283.001;1158.1,1286.4)|(1158.05,1287.799;1158.05,1284.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1074.15,1249.4;1077.178,1249.4)|(1076.15,1250.35;1073.122,1250.35)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1185.45,1393.9;1185.45,1403.5)|(1185.35,1404.896;1185.35,1392.504)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (946.85,1147.629;946.85,1150)|(945.5,1150.371;945.5,1148)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (861.05,1050.25;861.05,1052.75)|(859.7,1053.121;859.7,1049.879)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (895.102,1150;896.75,1150)|(897.548,1151.15;895.9,1151.15)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (939.05,1151.65;939.05,1154.15)|(937.7,1154.521;937.7,1151.279)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1315.95,975.673;1315.95,980.927)|(1315.7,979.55;1315.7,977.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (910.35,1406.65;910.35,1411.358)|(909.85,1410.05;909.85,1405.342)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1324.224,742.55;1325.75,742.55)|(1325.7,743.6;1325.15,743.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.2.1 : Minimum Metal2 width violations = 2.0um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1205.854,844.1;1204.85,844.1)|(1203.796,845.8;1204.8,845.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.2.1 : Minimum Metal2 width violations = 2.0um'</category>
+   <cell>subnorm_fp32</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1204.85,844.1;1204.85,843.801)|(1204.8,845.8;1204.8,846.099)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.3.3 : Minimum bonding pad metal spacing to Metal2 violations = 30.0um'</category>
+   <cell>ASPAD00:r90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (51.55,125.55;86.55,125.55)/(86.55,130.55;51.55,130.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.3.3 : Minimum bonding pad metal spacing to Metal2 violations = 30.0um'</category>
+   <cell>ASPAD00:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (51.55,125.55;86.55,125.55)/(86.55,130.55;51.55,130.55)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

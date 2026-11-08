@@ -1,0 +1,20 @@
+# Gitignore for scl_subnorm_fp32_tapeout
+*.md
+!README.md
+!docs/
+!docs/**
+
+# Ignore scratch / agentic python scripts
+*.py
+*.pyc
+__pycache__/
+
+# EDA intermediate files
+*.log
+!reports/*.log
+*.bak
+*.cir
+!reports/*.cir
+*.raw
+*.vcd
+*.prn

@@ -1,0 +1,42 @@
+
+6. Printing statistics.
+
+=== subnorm_fp32 ===
+
+   Number of wires:                805
+   Number of wire bits:            990
+   Number of public wires:          69
+   Number of public wire bits:     229
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                753
+     ADNR00                         24
+     AND200                         15
+     AND300                         13
+     AND400                          7
+     AND500                          1
+     AOI400                         11
+     DFCL11                         13
+     DFFL11                        182
+     INVR00                         54
+     MX2100                         34
+     NND200                        125
+     NND300                         20
+     NND400                          9
+     NND500                         11
+     NOR200                         93
+     NOR300                         22
+     NOR400                          5
+     NOR500                          1
+     OAI400                         23
+     OR2100                         17
+     OR3100                          6
+     OR4100                          1
+     ORND00                         50
+     XNR200                          4
+     XOR200                          4
+     XOR300                          8
+
+   Chip area for module '\subnorm_fp32': 2106.320000
+

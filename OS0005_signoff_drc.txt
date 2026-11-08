@@ -1,0 +1,176 @@
+======================================================================
+KLAYOUT DRC VERIFICATION REPORT
+Database: /mnt/d/Desktop/4-2 project/OS0005_die1_SubNormFP32_handover/OS0005_die1_SubNormFP32_handover/OS0005_signoff_drc.lyrdb
+Total Markers: 129
+======================================================================
+
+Summary by Cell:
+----------------------------------------
+  subnorm_fp32                  :    58
+  ASPAD00:r90                   :     8
+  ASPAD00:r0                    :     8
+  DFCL11                        :     7
+  SPAD00:r0                     :     7
+  SPAD00:r90                    :     7
+  DFFL11                        :     6
+  NOR400                        :     4
+  OR4100                        :     4
+  NOR500                        :     3
+  MX4100                        :     3
+  OS0005                        :     3
+  OR3100                        :     3
+  NOR300                        :     2
+  XOR300                        :     2
+  NND500                        :     1
+  OR2100                        :     1
+  MX2100                        :     1
+  XOR200                        :     1
+
+Summary by Rule / Category:
+----------------------------------------
+  '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um':    43
+  '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um':    16
+  '8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um':    12
+  '4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um':    10
+  '4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um':     8
+  '4.4.1 : Minimum Poly Extension beyond Gate : 1.0um':     8
+  '8.1.1 : Minimum Metal1 spacing violations = 1.2um':     8
+  '7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.5um':     6
+  '7.4.2 : Minimum enclosure of Diffusion to Contact violations =  0.7um':     6
+  '8.2.1 : Minimum Metal1 width violations = 1.7um':     4
+  '9.2.1 : Minimum via to via spacing violations = 1.5um':     2
+  '9.4.1 : Minimum via to Poly spacing violations = 1.0um':     2
+  '10.2.1 : Minimum Metal2 width violations = 2.0um':     2
+  '10.3.3 : Minimum bonding pad metal spacing to Metal2 violations = 30.0um':     2
+
+Violation Details:
+----------------------------------------
+  [  1] Cell: NOR400 | Rule: '4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um' | Value: edge-pair: (16.95,15.5;17.75,15.5)/(18.25,15.5;16.45,15.5)
+  [  2] Cell: NOR400 | Rule: '4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um' | Value: edge-pair: (11,15.5;11.8,15.5)/(12.3,15.5;10.5,15.5)
+  [  3] Cell: NOR400 | Rule: '4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um' | Value: edge-pair: (21.65,15.5;22.45,15.5)/(22.95,15.5;21.15,15.5)
+  [  4] Cell: NOR400 | Rule: '4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um' | Value: edge-pair: (5.45,15.5;6.25,15.5)/(6.75,15.5;4.95,15.5)
+  [  5] Cell: OR4100 | Rule: '4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um' | Value: edge-pair: (16.95,15.5;17.75,15.5)/(18.25,15.5;16.45,15.5)
+  [  6] Cell: OR4100 | Rule: '4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um' | Value: edge-pair: (11,15.5;11.8,15.5)/(12.3,15.5;10.5,15.5)
+  [  7] Cell: OR4100 | Rule: '4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um' | Value: edge-pair: (21.65,15.5;22.45,15.5)/(22.95,15.5;21.15,15.5)
+  [  8] Cell: OR4100 | Rule: '4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um' | Value: edge-pair: (5.45,15.5;6.25,15.5)/(6.75,15.5;4.95,15.5)
+  [  9] Cell: NOR500 | Rule: '4.4.1 : Minimum Poly Extension beyond Gate : 1.0um' | Value: polygon: (11.35,14.1;11.35,14.7;12.15,14.7;12.15,14.1)
+  [ 10] Cell: NND500 | Rule: '4.4.1 : Minimum Poly Extension beyond Gate : 1.0um' | Value: polygon: (5.65,15.2;5.65,16.05;6.45,16.05;6.45,15.2)
+  [ 11] Cell: DFFL11 | Rule: '4.4.1 : Minimum Poly Extension beyond Gate : 1.0um' | Value: polygon: (18.65,4.15;18.65,5.1;19.45,5.1;19.45,4.15)
+  [ 12] Cell: NOR300 | Rule: '4.4.1 : Minimum Poly Extension beyond Gate : 1.0um' | Value: polygon: (6.35,15;6.35,15.5;7.15,15.5;7.15,15)
+  [ 13] Cell: DFCL11 | Rule: '4.4.1 : Minimum Poly Extension beyond Gate : 1.0um' | Value: polygon: (18.65,4.15;18.65,5.1;19.45,5.1;19.45,4.15)
+  [ 14] Cell: MX4100 | Rule: '4.4.1 : Minimum Poly Extension beyond Gate : 1.0um' | Value: polygon: (96.4,21.85;96.4,22.65;97.05,22.65;97.05,21.85)
+  [ 15] Cell: MX4100 | Rule: '4.4.1 : Minimum Poly Extension beyond Gate : 1.0um' | Value: polygon: (82.8,21.35;82.8,21.85;83.6,21.85;83.6,21.35)
+  [ 16] Cell: MX4100 | Rule: '4.4.1 : Minimum Poly Extension beyond Gate : 1.0um' | Value: polygon: (11.55,7;11.55,7.9;12.35,7.9;12.35,7)
+  [ 17] Cell: OR2100 | Rule: '4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um' | Value: edge-pair: (12.15,3.1;12.15,5.1)/(12.65,2.1;12.65,6.514)
+  [ 18] Cell: DFFL11 | Rule: '4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um' | Value: edge-pair: (50.65,4.3;50.65,6.8)/(51.25,3.3;51.25,8.175)
+  [ 19] Cell: DFFL11 | Rule: '4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um' | Value: edge-pair: (29.45,4.8;29.45,6.8)/(29.95,3.8;29.95,8.214)
+  [ 20] Cell: DFFL11 | Rule: '4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um' | Value: edge-pair: (22.55,5.1;22.55,7.1)/(23.05,4.1;23.05,8.514)
+  [ 21] Cell: DFFL11 | Rule: '4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um' | Value: edge-pair: (5.05,7.1;5.05,5.1)/(4.55,8.514;4.55,4.1)
+  [ 22] Cell: DFCL11 | Rule: '4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um' | Value: edge-pair: (5.05,7.1;5.05,5.1)/(4.55,8.514;4.55,4.1)
+  [ 23] Cell: DFCL11 | Rule: '4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um' | Value: edge-pair: (56.45,4.8;56.45,6.8)/(57.05,3.8;57.05,8.175)
+  [ 24] Cell: DFCL11 | Rule: '4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um' | Value: edge-pair: (22.55,5.1;22.55,7.1)/(23.05,4.1;23.05,8.514)
+  [ 25] Cell: DFCL11 | Rule: '4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um' | Value: edge-pair: (31.25,6.8;31.25,4.8)/(30.75,8.214;30.75,3.8)
+  [ 26] Cell: DFCL11 | Rule: '4.5.1 : Minimum Diffusion extenion beyond Gate violations = 1.5um' | Value: edge-pair: (51.35,7.1;51.35,5.1)/(50.85,8.514;50.85,4.1)
+  [ 27] Cell: NOR500 | Rule: '7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.5um' | Value: polygon: (13,13.25;13,13.6;14.2,13.6;14.2,13.25)
+  [ 28] Cell: MX2100 | Rule: '7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.5um' | Value: polygon: (2.2,12.6;2.2,13;3.4,13;3.4,12.6)
+  [ 29] Cell: NOR300 | Rule: '7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.5um' | Value: polygon: (14.95,13.25;14.95,13.6;16.15,13.6;16.15,13.25)
+  [ 30] Cell: XOR200 | Rule: '7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.5um' | Value: polygon: (2.45,12.6;2.45,13;3.65,13;3.65,12.6)
+  [ 31] Cell: XOR300 | Rule: '7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.5um' | Value: polygon: (2.45,12.6;2.45,13;3.65,13;3.65,12.6)
+  [ 32] Cell: XOR300 | Rule: '7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.5um' | Value: polygon: (44.1,12.6;44.1,13;45.3,13;45.3,12.6)
+  [ 33] Cell: ASPAD00:r90 | Rule: '7.4.2 : Minimum enclosure of Diffusion to Contact violations =  0.7um' | Value: polygon: (14.404,113.55;14.404,115.55;14.85,115.55;14.85,113.55)
+  [ 34] Cell: ASPAD00:r0 | Rule: '7.4.2 : Minimum enclosure of Diffusion to Contact violations =  0.7um' | Value: polygon: (14.404,113.55;14.404,115.55;14.85,115.55;14.85,113.55)
+  [ 35] Cell: SPAD00:r0 | Rule: '7.4.2 : Minimum enclosure of Diffusion to Contact violations =  0.7um' | Value: polygon: (14.404,113.55;14.404,115.55;14.85,115.55;14.85,113.55)
+  [ 36] Cell: SPAD00:r90 | Rule: '7.4.2 : Minimum enclosure of Diffusion to Contact violations =  0.7um' | Value: polygon: (14.404,113.55;14.404,115.55;14.85,115.55;14.85,113.55)
+  [ 37] Cell: DFFL11 | Rule: '7.4.2 : Minimum enclosure of Diffusion to Contact violations =  0.7um' | Value: polygon: (5.05,5.5;5.05,6.7;5.65,6.7;5.65,5.5)
+  [ 38] Cell: DFCL11 | Rule: '7.4.2 : Minimum enclosure of Diffusion to Contact violations =  0.7um' | Value: polygon: (5.05,5.5;5.05,6.7;5.65,6.7;5.65,5.5)
+  [ 39] Cell: OS0005 | Rule: '8.1.1 : Minimum Metal1 spacing violations = 1.2um' | Value: edge-pair: (1070.4,595.319;1070.4,600.081)|(1070,598.95;1070,596.45)
+  [ 40] Cell: OS0005 | Rule: '8.1.1 : Minimum Metal1 spacing violations = 1.2um' | Value: edge-pair: (305.6,621.85;305.6,624.35)|(304.9,625.325;304.9,620.875)
+  [ 41] Cell: OS0005 | Rule: '8.1.1 : Minimum Metal1 spacing violations = 1.2um' | Value: edge-pair: (306,624.35;306,627.65)|(304.9,628.13;304.9,623.87)
+  [ 42] Cell: subnorm_fp32 | Rule: '8.1.1 : Minimum Metal1 spacing violations = 1.2um' | Value: edge-pair: (305.6,621.85;305.6,624.35)|(304.9,625.325;304.9,620.875)
+  [ 43] Cell: subnorm_fp32 | Rule: '8.1.1 : Minimum Metal1 spacing violations = 1.2um' | Value: edge-pair: (306,624.35;306,627.65)|(304.9,628.13;304.9,623.87)
+  [ 44] Cell: subnorm_fp32 | Rule: '8.1.1 : Minimum Metal1 spacing violations = 1.2um' | Value: edge-pair: (910.5,1172.656;910.5,1173.15)|(909.7,1174.044;909.7,1173.55)
+  [ 45] Cell: subnorm_fp32 | Rule: '8.1.1 : Minimum Metal1 spacing violations = 1.2um' | Value: edge-pair: (910.1,1173.15;910.1,1175.65)|(909.7,1176.781;909.7,1173.55)
+  [ 46] Cell: subnorm_fp32 | Rule: '8.1.1 : Minimum Metal1 spacing violations = 1.2um' | Value: edge-pair: (1070.4,595.319;1070.4,600.081)|(1070,598.95;1070,596.45)
+  [ 47] Cell: subnorm_fp32 | Rule: '8.2.1 : Minimum Metal1 width violations = 1.7um' | Value: edge-pair: (911.5,1254.851;911.5,1254.95)|(912.2,1256.499;912.2,1256.4)
+  [ 48] Cell: subnorm_fp32 | Rule: '8.2.1 : Minimum Metal1 width violations = 1.7um' | Value: edge-pair: (911.5,1254.95;911.313,1254.95)|(912.2,1256.4;912.387,1256.4)
+  [ 49] Cell: subnorm_fp32 | Rule: '8.2.1 : Minimum Metal1 width violations = 1.7um' | Value: edge-pair: (1020.75,844.229;1020.75,844.25)|(1021.4,845.821;1021.4,845.8)
+  [ 50] Cell: subnorm_fp32 | Rule: '8.2.1 : Minimum Metal1 width violations = 1.7um' | Value: edge-pair: (1020.75,844.25;1020.702,844.25)|(1021.4,845.8;1021.448,845.8)
+  [ 51] Cell: ASPAD00:r90 | Rule: '8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um' | Value: polygon: (44.6,243.55;44.6,245.55;44.8,245.55;44.8,243.55)
+  [ 52] Cell: ASPAD00:r90 | Rule: '8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um' | Value: polygon: (60,240.05;60,242.05;60.3,242.05;60.3,240.05)
+  [ 53] Cell: ASPAD00:r0 | Rule: '8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um' | Value: polygon: (44.6,243.55;44.6,245.55;44.8,245.55;44.8,243.55)
+  [ 54] Cell: ASPAD00:r0 | Rule: '8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um' | Value: polygon: (60,240.05;60,242.05;60.3,242.05;60.3,240.05)
+  [ 55] Cell: SPAD00:r0 | Rule: '8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um' | Value: polygon: (44.6,243.55;44.6,245.55;44.8,245.55;44.8,243.55)
+  [ 56] Cell: SPAD00:r0 | Rule: '8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um' | Value: polygon: (60,240.05;60,242.05;60.3,242.05;60.3,240.05)
+  [ 57] Cell: SPAD00:r90 | Rule: '8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um' | Value: polygon: (44.6,243.55;44.6,245.55;44.8,245.55;44.8,243.55)
+  [ 58] Cell: SPAD00:r90 | Rule: '8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um' | Value: polygon: (60,240.05;60,242.05;60.3,242.05;60.3,240.05)
+  [ 59] Cell: NOR500 | Rule: '8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um' | Value: polygon: (36,18.25;36,18.4;37.2,18.4;37.2,18.25)
+  [ 60] Cell: OR3100 | Rule: '8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um' | Value: polygon: (17.7,14.55;17.7,14.8;18,14.8;18,14.55)
+  [ 61] Cell: OR3100 | Rule: '8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um' | Value: polygon: (17.7,14.55;17.7,14.8;18,14.8;18,14.55)
+  [ 62] Cell: OR3100 | Rule: '8.3.1 : Minimum Metal1 enclose to contact violations = 0.4um' | Value: polygon: (17.7,13.6;17.7,14.55;18,14.55;18,13.6)
+  [ 63] Cell: ASPAD00:r90 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (106.2,246.681;106.2,242.419)/(105.8,245.55;105.8,243.55)
+  [ 64] Cell: ASPAD00:r90 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (60,238.888;60,243.212)/(60.3,240.05;60.3,242.05)
+  [ 65] Cell: ASPAD00:r90 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (67.7,243.181;67.7,238.919)/(67.3,242.05;67.3,240.05)
+  [ 66] Cell: ASPAD00:r90 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (44.6,242.367;44.6,246.733)/(44.8,243.55;44.8,245.55)
+  [ 67] Cell: ASPAD00:r0 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (106.2,246.681;106.2,242.419)/(105.8,245.55;105.8,243.55)
+  [ 68] Cell: ASPAD00:r0 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (60,238.888;60,243.212)/(60.3,240.05;60.3,242.05)
+  [ 69] Cell: ASPAD00:r0 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (67.7,243.181;67.7,238.919)/(67.3,242.05;67.3,240.05)
+  [ 70] Cell: ASPAD00:r0 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (44.6,242.367;44.6,246.733)/(44.8,243.55;44.8,245.55)
+  [ 71] Cell: SPAD00:r0 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (106.2,246.681;106.2,242.419)/(105.8,245.55;105.8,243.55)
+  [ 72] Cell: SPAD00:r0 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (60,238.888;60,243.212)/(60.3,240.05;60.3,242.05)
+  [ 73] Cell: SPAD00:r0 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (67.7,243.181;67.7,238.919)/(67.3,242.05;67.3,240.05)
+  [ 74] Cell: SPAD00:r0 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (44.6,242.367;44.6,246.733)/(44.8,243.55;44.8,245.55)
+  [ 75] Cell: SPAD00:r90 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (106.2,246.681;106.2,242.419)/(105.8,245.55;105.8,243.55)
+  [ 76] Cell: SPAD00:r90 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (60,238.888;60,243.212)/(60.3,240.05;60.3,242.05)
+  [ 77] Cell: SPAD00:r90 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (67.7,243.181;67.7,238.919)/(67.3,242.05;67.3,240.05)
+  [ 78] Cell: SPAD00:r90 | Rule: '8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um' | Value: edge-pair: (44.6,242.367;44.6,246.733)/(44.8,243.55;44.8,245.55)
+  [ 79] Cell: subnorm_fp32 | Rule: '9.2.1 : Minimum via to via spacing violations = 1.5um' | Value: edge-pair: (984.7,1299.45;984.7,1300.95)|(984.25,1300.95;984.25,1299.45)
+  [ 80] Cell: subnorm_fp32 | Rule: '9.2.1 : Minimum via to via spacing violations = 1.5um' | Value: edge-pair: (1074.4,1332.75;1074.4,1334.25)|(1073.4,1334.25;1073.4,1332.75)
+  [ 81] Cell: subnorm_fp32 | Rule: '9.4.1 : Minimum via to Poly spacing violations = 1.0um' | Value: edge-pair: (827.7,1504.45;827.7,1502.95)/(827.95,1501.982;827.95,1505.418)
+  [ 82] Cell: subnorm_fp32 | Rule: '9.4.1 : Minimum via to Poly spacing violations = 1.0um' | Value: edge-pair: (826.2,1502.95;826.2,1504.45)/(826.15,1505.449;826.15,1501.951)
+  [ 83] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1403.15,746.05;1403.15,748.55)|(1401.8,748.921;1401.8,745.679)
+  [ 84] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1024.85,644.65;1024.85,647.15)|(1023.5,647.521;1023.5,644.279)
+  [ 85] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1282.95,582.7;1282.95,592.3)|(1282.85,593.696;1282.85,581.304)
+  [ 86] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (623.15,999.55;623.15,1002.05)|(622.15,1003.03;622.15,998.57)
+  [ 87] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1040.45,539.229;1040.45,541.6)|(1039.1,541.971;1039.1,539.6)
+  [ 88] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1102.85,593.95;1102.85,596.45)|(1101.5,596.821;1101.5,593.579)
+  [ 89] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1074.15,539.573;1074.15,539.9)|(1073.9,541.277;1073.9,540.95)
+  [ 90] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1074.15,539.9;1074.826,539.9)|(1073.9,540.95;1073.224,540.95)
+  [ 91] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1006.6,1285.41;1006.6,1286.4)|(1005.95,1287.64;1005.95,1286.65)
+  [ 92] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1071.65,742.029;1071.65,744.4)|(1070.3,744.771;1070.3,742.4)
+  [ 93] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1196.65,690.434;1196.65,690.7)|(1195.55,691.566;1195.55,691.3)
+  [ 94] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1137.95,1405.15;1137.95,1407.65)|(1136.6,1408.021;1136.6,1404.779)
+  [ 95] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1266.65,1553.1;1266.65,1555.6)|(1265.65,1556.58;1265.65,1553.5)
+  [ 96] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1180.85,437.779;1180.85,440.2)|(1179.5,440.571;1179.5,438.15)
+  [ 97] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1388.25,582.7;1388.25,592.3)|(1388.15,593.696;1388.15,581.304)
+  [ 98] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1324.72,742.55;1325.75,742.55)|(1326.73,743.55;1325.7,743.55)
+  [ 99] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1145.75,1401.129;1145.75,1403.5)|(1144.4,1403.871;1144.4,1401.5)
+  [100] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1325.85,1495.3;1325.85,1504.9)|(1325.75,1506.296;1325.75,1493.904)
+  [101] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (755.75,1096.8;755.75,1099.3)|(754.5,1099.93;754.5,1097.3)
+  [102] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1006.6,1282.808;1006.6,1286.4)|(1006.2,1286.65;1006.2,1284.15)
+  [103] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1148.25,975.992;1148.25,979.3)|(1147.75,980.608;1147.75,977.3)
+  [104] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1259.55,684.1;1259.55,693.7)|(1259.45,695.096;1259.45,682.704)
+  [105] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (864.95,1336.2;864.95,1355.7)|(863.6,1355.75;863.6,1336.2)
+  [106] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1030.1,1305.45;1030.1,1305.278)|(1031,1306.35;1031,1306.522)
+  [107] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1029.928,1305.45;1030.1,1305.45)|(1031.172,1306.35;1031,1306.35)
+  [108] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1103.25,1306.05;1104.171,1306.05)|(1103.45,1307.25;1102.529,1307.25)
+  [109] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1200.1,690;1200.1,692.5)|(1199,693.366;1199,689.134)
+  [110] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1032.65,640.5;1032.65,643)|(1031.3,643.371;1031.3,640.129)
+  [111] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1449.7,746.9;1449.7,748.416)|(1448.6,747.55;1448.6,746.034)
+  [112] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1196.65,690.7;1196.815,690.7)|(1195.55,691.3;1195.385,691.3)
+  [113] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1056.75,1596.7;1056.75,1606.3)|(1056.65,1607.696;1056.65,1595.304)
+  [114] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1208.85,1596.7;1208.85,1606.3)|(1208.75,1607.696;1208.75,1595.304)
+  [115] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (759.65,1147.5;759.65,1150)|(758.4,1150.63;758.4,1148)
+  [116] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1158.1,1283.001;1158.1,1286.4)|(1158.05,1287.799;1158.05,1284.4)
+  [117] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1074.15,1249.4;1077.178,1249.4)|(1076.15,1250.35;1073.122,1250.35)
+  [118] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1185.45,1393.9;1185.45,1403.5)|(1185.35,1404.896;1185.35,1392.504)
+  [119] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (946.85,1147.629;946.85,1150)|(945.5,1150.371;945.5,1148)
+  [120] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (861.05,1050.25;861.05,1052.75)|(859.7,1053.121;859.7,1049.879)
+  [121] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (895.102,1150;896.75,1150)|(897.548,1151.15;895.9,1151.15)
+  [122] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (939.05,1151.65;939.05,1154.15)|(937.7,1154.521;937.7,1151.279)
+  [123] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1315.95,975.673;1315.95,980.927)|(1315.7,979.55;1315.7,977.05)
+  [124] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (910.35,1406.65;910.35,1411.358)|(909.85,1410.05;909.85,1405.342)
+  [125] Cell: subnorm_fp32 | Rule: '10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.4um' | Value: edge-pair: (1324.224,742.55;1325.75,742.55)|(1325.7,743.6;1325.15,743.6)
+  [126] Cell: subnorm_fp32 | Rule: '10.2.1 : Minimum Metal2 width violations = 2.0um' | Value: edge-pair: (1205.854,844.1;1204.85,844.1)|(1203.796,845.8;1204.8,845.8)
+  [127] Cell: subnorm_fp32 | Rule: '10.2.1 : Minimum Metal2 width violations = 2.0um' | Value: edge-pair: (1204.85,844.1;1204.85,843.801)|(1204.8,845.8;1204.8,846.099)
+  [128] Cell: ASPAD00:r90 | Rule: '10.3.3 : Minimum bonding pad metal spacing to Metal2 violations = 30.0um' | Value: edge-pair: (51.55,125.55;86.55,125.55)/(86.55,130.55;51.55,130.55)
+  [129] Cell: ASPAD00:r0 | Rule: '10.3.3 : Minimum bonding pad metal spacing to Metal2 violations = 30.0um' | Value: edge-pair: (51.55,125.55;86.55,125.55)/(86.55,130.55;51.55,130.55)
